@@ -1,3 +1,5 @@
+% Fiz esse programa em um app diferente do matlab
+% Acho que precisa retirar os % e trocar os / por %
 
 v1 = 50*exp(%i*36.87*%pi/180);
 v2 = 81.65/sqrt(2)*exp(%i*((%pi/3)-(%pi/2)));
