@@ -1,10 +1,10 @@
 V = zeros(1,4);
 I = zeros(1,3);
 
-%Tensıes
-V(1,1)  = 37.871998 + 37.068507i;
-V(1,2)  = 15.587993 - 6.7013813i;
-V(1,3)  = 8.429678  - 30.367126i;
+%Tens√µes
+V(1,1)  = 37.871998 + 37.068507;  %Problema aqui nas tens√µes, seus valores imagin√°rios est√£o se somando aos reais
+V(1,2)  = 15.587993 - 6.7013813;
+V(1,3)  = 8.429678  - 30.367126;
 V(1,4) = V(1) + V(2) + V(3) %Eq
 
 %Correntes
@@ -12,8 +12,8 @@ I(1,1)  = 10*exp(i*(-45)*(pi/360));
 I(1,2)  = 10*exp(i*(  0)*(pi/360));
 I(1,3)  = 10*exp(i*( 45)*(pi/360))
 
-%C·lculos
-%Dimensıes do vetor: Tens„o, Resultado, Corrente
+%C√°lculos
+%Dimens√µes do vetor: Tens√£o, Resultado, Corrente
 %Resultados: 1-S / 2-P / 3-Q / 4-fp / 5-Theta / 6-Z
 results = zeros(4,6,3);
 
