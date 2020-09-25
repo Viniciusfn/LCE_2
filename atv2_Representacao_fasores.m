@@ -41,7 +41,7 @@ legend('v1','v2','v3','vt');
 v13  = v1+v3;
 fi13 = atan(imag(v13)/real(v13))
 %Agora, posiciono v2 tal que possua fase inversa a de v13
-novo_fi2 = fi13 - pi %Aqui tá dando errado, acho que devia ser + pi, talvez...
+novo_fi2 = fi13 + pi %Aqui tá dando errado, acho que devia ser + pi, talvez...
 novo_v2  = A2/sqrt(2)*exp(i*novo_fi2);
 %E calculo novo vt
 novo_vt = v1+novo_v2+v3;
