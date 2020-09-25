@@ -2,9 +2,9 @@ V = zeros(1,4);
 I = zeros(1,3);
 
 %Tensões
-V(1,1)  = 37.871998 + 37.068507;  %Problema aqui nas tensões, seus valores imaginários estão se somando aos reais
-V(1,2)  = 15.587993 - 6.7013813;
-V(1,3)  = 8.429678  - 30.367126;
+V(1,1)  = 37.871998 + i*37.068507;  %Problema aqui nas tensões, seus valores imaginários estão se somando aos reais
+V(1,2)  = 15.587993 - i*6.7013813;
+V(1,3)  = 8.429678  - i*30.367126;
 V(1,4) = V(1) + V(2) + V(3) %Eq
 
 %Correntes
